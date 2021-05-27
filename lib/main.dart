@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         theme: new ThemeData(
           primarySwatch: Colors.blue,
         ),
+        // mengarahkan home ke RootPage dengan parameter auth: Auth()
         home: new RootPage(auth: new Auth()));
   }
 }
